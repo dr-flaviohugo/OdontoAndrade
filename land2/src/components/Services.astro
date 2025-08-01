@@ -1,0 +1,334 @@
+---
+---
+
+<section id="servicos" class="section services">
+  <div class="container">
+    <div class="section-header fade-in">
+      <h2>Nossos Serviços</h2>
+      <p>Oferecemos uma ampla gama de tratamentos odontológicos com tecnologia de ponta e atendimento personalizado</p>
+    </div>
+    
+    <div class="services-grid">
+      <div class="service-card fade-in">
+        <div class="service-icon">
+          <i data-lucide="sparkles"></i>
+        </div>
+        <h3>Clareamento Dental</h3>
+        <p>Clareamento profissional para deixar seu sorriso mais branco e radiante, com técnicas seguras e eficazes.</p>
+        <ul class="service-features">
+          <li><i data-lucide="check"></i> Clareamento a laser</li>
+          <li><i data-lucide="check"></i> Moldeiras personalizadas</li>
+          <li><i data-lucide="check"></i> Resultados duradouros</li>
+        </ul>
+      </div>
+      
+      <div class="service-card fade-in">
+        <div class="service-icon">
+          <i data-lucide="zap"></i>
+        </div>
+        <h3>Implantes Dentários</h3>
+        <p>Recupere a funcionalidade e estética do seu sorriso com implantes de alta qualidade e durabilidade.</p>
+        <ul class="service-features">
+          <li><i data-lucide="check"></i> Implantes premium</li>
+          <li><i data-lucide="check"></i> Cirurgia guiada</li>
+          <li><i data-lucide="check"></i> Garantia vitalícia</li>
+        </ul>
+      </div>
+      
+      <div class="service-card fade-in">
+        <div class="service-icon">
+          <i data-lucide="shield"></i>
+        </div>
+        <h3>Ortodontia</h3>
+        <p>Aparelhos convencionais e invisíveis para alinhar seus dentes de forma confortável e discreta.</p>
+        <ul class="service-features">
+          <li><i data-lucide="check"></i> Aparelho convencional</li>
+          <li><i data-lucide="check"></i> Alinhadores invisíveis</li>
+          <li><i data-lucide="check"></i> Ortodontia infantil</li>
+        </ul>
+      </div>
+      
+      <div class="service-card fade-in">
+        <div class="service-icon">
+          <i data-lucide="heart"></i>
+        </div>
+        <h3>Odontopediatria</h3>
+        <p>Cuidado especializado para crianças, criando uma experiência positiva e educativa no consultório.</p>
+        <ul class="service-features">
+          <li><i data-lucide="check"></i> Ambiente lúdico</li>
+          <li><i data-lucide="check"></i> Prevenção infantil</li>
+          <li><i data-lucide="check"></i> Educação em saúde bucal</li>
+        </ul>
+      </div>
+      
+      <div class="service-card fade-in">
+        <div class="service-icon">
+          <i data-lucide="star"></i>
+        </div>
+        <h3>Harmonização Facial</h3>
+        <p>Procedimentos estéticos para realçar a beleza natural do seu rosto de forma harmoniosa e segura.</p>
+        <ul class="service-features">
+          <li><i data-lucide="check"></i> Toxina botulínica</li>
+          <li><i data-lucide="check"></i> Preenchimento facial</li>
+          <li><i data-lucide="check"></i> Fios de sustentação</li>
+        </ul>
+      </div>
+      
+      <div class="service-card fade-in">
+        <div class="service-icon">
+          <i data-lucide="activity"></i>
+        </div>
+        <h3>Endodontia</h3>
+        <p>Tratamento de canal moderno e indolor, preservando seus dentes naturais com máximo conforto.</p>
+        <ul class="service-features">
+          <li><i data-lucide="check"></i> Tratamento indolor</li>
+          <li><i data-lucide="check"></i> Tecnologia digital</li>
+          <li><i data-lucide="check"></i> Preservação dental</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="services-cta fade-in">
+      <div class="cta-content">
+        <h3>Não encontrou o que procura?</h3>
+        <p>Entre em contato conosco para uma avaliação personalizada</p>
+        <a href="#contato" class="btn btn-primary">
+          <i data-lucide="phone"></i>
+          Falar com Especialista
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.services {
+  background: var(--bg-secondary);
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-header h2 {
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.section-header p {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.service-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: var(--shadow-medium);
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover::before {
+  transform: translateX(0);
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-large);
+}
+
+.service-icon {
+  width: 4rem;
+  height: 4rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.service-icon i {
+  width: 2rem;
+  height: 2rem;
+}
+
+.service-card h3 {
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.service-card p {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.service-features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.service-features li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.service-features li:last-child {
+  margin-bottom: 0;
+}
+
+.service-features i {
+  width: 1rem;
+  height: 1rem;
+  color: var(--secondary-color);
+  flex-shrink: 0;
+}
+
+.services-cta {
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+  border-radius: 1.5rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.services-cta::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 100%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.cta-content {
+  position: relative;
+  z-index: 1;
+}
+
+.services-cta h3 {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.services-cta p {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+}
+
+.services-cta .btn {
+  background: white;
+  color: var(--primary-color);
+}
+
+.services-cta .btn:hover {
+  background: var(--bg-secondary);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .service-card {
+    padding: 1.5rem;
+  }
+  
+  .section-header {
+    margin-bottom: 3rem;
+  }
+  
+  .services-cta {
+    padding: 2rem 1.5rem;
+  }
+  
+  .services-cta h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-card {
+    padding: 1.25rem;
+  }
+  
+  .service-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .service-icon i {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .service-card h3 {
+    font-size: 1.25rem;
+  }
+}
+</style>
+
+<script>
+// Initialize Lucide icons
+lucide.createIcons();
+
+// Fade in animation on scroll (reuse from previous components)
+const observerOptions = {
+  threshold: 0.1,
+  rootMargin: '0px 0px -50px 0px'
+};
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, observerOptions);
+
+// Observe all fade-in elements in this section
+document.querySelectorAll('.services .fade-in').forEach(el => {
+  observer.observe(el);
+});
+</script>

@@ -1,0 +1,552 @@
+---
+---
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-icon">
+              <i data-lucide="smile"></i>
+            </div>
+            <span class="logo-text">Odonto Andrade</span>
+          </div>
+          <p class="brand-description">
+            Cuidando do seu sorriso com excelência, tecnologia avançada e 
+            atendimento humanizado há mais de 15 anos.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <i data-lucide="facebook"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i data-lucide="instagram"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <i data-lucide="linkedin"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+              <i data-lucide="youtube"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="WhatsApp">
+              <i data-lucide="message-circle"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <div class="link-group">
+            <h4>Navegação</h4>
+            <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#depoimentos">Depoimentos</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+          
+          <div class="link-group">
+            <h4>Serviços</h4>
+            <ul>
+              <li><a href="#servicos">Clareamento Dental</a></li>
+              <li><a href="#servicos">Implantes Dentários</a></li>
+              <li><a href="#servicos">Ortodontia</a></li>
+              <li><a href="#servicos">Odontopediatria</a></li>
+              <li><a href="#servicos">Harmonização Facial</a></li>
+              <li><a href="#servicos">Endodontia</a></li>
+            </ul>
+          </div>
+          
+          <div class="link-group">
+            <h4>Contato</h4>
+            <ul class="contact-info">
+              <li>
+                <i data-lucide="map-pin"></i>
+                <span>Rua das Flores, 123<br>Centro - São Paulo, SP</span>
+              </li>
+              <li>
+                <i data-lucide="phone"></i>
+                <span>(11) 99999-9999<br>(11) 3333-3333</span>
+              </li>
+              <li>
+                <i data-lucide="mail"></i>
+                <span>contato@odontoandrade.com.br</span>
+              </li>
+              <li>
+                <i data-lucide="clock"></i>
+                <span>Seg-Sex: 8h às 18h<br>Sáb: 8h às 14h</span>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="link-group">
+            <h4>Newsletter</h4>
+            <p class="newsletter-text">
+              Receba dicas de saúde bucal e novidades da clínica
+            </p>
+            <form class="newsletter-form" id="newsletterForm">
+              <div class="newsletter-input">
+                <input 
+                  type="email" 
+                  placeholder="Seu e-mail" 
+                  required
+                  id="newsletterEmail"
+                >
+                <button type="submit" class="newsletter-btn">
+                  <i data-lucide="send"></i>
+                </button>
+              </div>
+            </form>
+            <div class="footer-certificates">
+              <div class="certificate">
+                <i data-lucide="shield-check"></i>
+                <span>CRO Certificado</span>
+              </div>
+              <div class="certificate">
+                <i data-lucide="award"></i>
+                <span>ISO 9001</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-bottom-content">
+        <div class="footer-legal">
+          <p>&copy; 2025 Odonto Andrade. Todos os direitos reservados.</p>
+          <div class="legal-links">
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos de Uso</a>
+            <a href="#">Cookies</a>
+          </div>
+        </div>
+        
+        <div class="footer-credits">
+          <p>Desenvolvido com <i data-lucide="heart" class="heart-icon"></i> para seu sorriso</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Botão voltar ao topo -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i data-lucide="arrow-up"></i>
+  </button>
+</footer>
+
+<style>
+.footer {
+  background: linear-gradient(135deg, var(--text-primary) 0%, #0f172a 100%);
+  color: white;
+  position: relative;
+}
+
+.footer-content {
+  padding: 4rem 0 2rem;
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem;
+  margin-bottom: 3rem;
+}
+
+.footer-brand {
+  max-width: 350px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.logo-icon {
+  width: 3rem;
+  height: 3rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.logo-icon i {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.logo-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: white;
+}
+
+.brand-description {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.social-link:hover {
+  background: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+.social-link i {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.link-group h4 {
+  color: white;
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.link-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link-group ul li {
+  margin-bottom: 0.75rem;
+}
+
+.link-group ul li:last-child {
+  margin-bottom: 0;
+}
+
+.link-group a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 0.875rem;
+}
+
+.link-group a:hover {
+  color: var(--primary-light);
+}
+
+.contact-info li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.875rem;
+}
+
+.contact-info i {
+  width: 1rem;
+  height: 1rem;
+  color: var(--primary-light);
+  flex-shrink: 0;
+  margin-top: 0.125rem;
+}
+
+.newsletter-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.newsletter-form {
+  margin-bottom: 2rem;
+}
+
+.newsletter-input {
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.newsletter-input input {
+  flex: 1;
+  padding: 0.75rem;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 0.875rem;
+}
+
+.newsletter-input input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.newsletter-input input:focus {
+  outline: none;
+}
+
+.newsletter-btn {
+  padding: 0.75rem;
+  background: var(--primary-color);
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.newsletter-btn:hover {
+  background: var(--primary-dark);
+}
+
+.newsletter-btn i {
+  width: 1rem;
+  height: 1rem;
+}
+
+.footer-certificates {
+  display: flex;
+  gap: 1rem;
+}
+
+.certificate {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.75rem;
+}
+
+.certificate i {
+  width: 1rem;
+  height: 1rem;
+  color: var(--secondary-color);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 2rem;
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-legal {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-legal p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.legal-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.legal-links a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.3s ease;
+}
+
+.legal-links a:hover {
+  color: var(--primary-light);
+}
+
+.footer-credits {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-credits p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.heart-icon {
+  width: 1rem;
+  height: 1rem;
+  color: #ef4444;
+  animation: heartbeat 2s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 3rem;
+  height: 3rem;
+  background: var(--primary-color);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-large);
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 100;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+.back-to-top i {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+@media (max-width: 1024px) {
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .footer-links {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .footer-bottom-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+  
+  .footer-legal {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .back-to-top {
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    padding: 3rem 0 1.5rem;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+  
+  .footer-certificates {
+    justify-content: center;
+  }
+  
+  .legal-links {
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: center;
+  }
+}
+</style>
+
+<script>
+// Initialize Lucide icons
+lucide.createIcons();
+
+// Newsletter form handling
+document.getElementById('newsletterForm')?.addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  const email = document.getElementById('newsletterEmail');
+  if (email && email.value.trim()) {
+    alert('Obrigado! Você foi inscrito em nossa newsletter.');
+    email.value = '';
+  }
+});
+
+// Back to top functionality
+const backToTopBtn = document.getElementById('backToTop');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) {
+    backToTopBtn?.classList.add('visible');
+  } else {
+    backToTopBtn?.classList.remove('visible');
+  }
+});
+
+backToTopBtn?.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+</script>
