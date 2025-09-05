@@ -1,3 +1,44 @@
 {
-  "messages": []
+  "messages": [
+    {
+      "phone": "5561999999999",
+      "direction": "in",
+      "body": "Olá, mensagem de teste",
+      "wa_message_id": "test_message_id",
+      "status": "received",
+      "ts": 1757105777000
+    },
+    {
+      "phone": "5561986244500",
+      "direction": "out",
+      "body": "Olá, Flávio!\n\nAqui é da Clínica Odontológica. Gostaríamos de saber se podemos auxiliá-lo com o seu agendamento.\n\nCaso precise, ficaremos felizes em ajudar a encontrar o melhor horário para você.\n\nAtenciosamente,\nA Equipe da Clínica Odontológica",
+      "wa_message_id": "wamid.HBgMNTU2MTg2MjQ0NTAwFQIAERgSMzIyNEEzOUVDNEUwNjE3MUFBAA==",
+      "status": "sent",
+      "ts": 1757105877138
+    },
+    {
+      "phone": "5561986244500",
+      "direction": "out",
+      "body": "Olá, Flavio!\n\nAqui é da Clínica Odontológica [Nome da Clínica, se aplicável].\n\nComo podemos ajudar com o seu agendamento hoje?\n\nEstamos à disposição para esclarecer dúvidas e auxiliar na marcação da sua consulta.\n\nAtenciosamente,\nA equipe da Clínica Odontológica [Nome da Clínica, se aplicável]",
+      "wa_message_id": "wamid.HBgMNTU2MTg2MjQ0NTAwFQIAERgSMDMwRkRBOTM1MjlFNTQzNTA0AA==",
+      "status": "sent",
+      "ts": 1757105983354
+    },
+    {
+      "phone": "5561986244500",
+      "direction": "out",
+      "body": "Prezado(a) [Nome do Paciente, se aplicável],\n\nEste é um teste para verificar o funcionamento do nosso sistema.\n\nSe você tiver alguma dúvida ou precisar de assistência, por favor, não hesite em nos contatar.\n\nPara agendar sua próxima consulta ou para mais informações sobre nossos serviços, entre em contato conosco pelo telefone [Número de Telefone] ou visite nosso site [Endereço do Site].\n\nAtenciosamente,\n\nA Equipe da Clínica Odontológica [Nome da Clínica]",
+      "wa_message_id": "wamid.HBgMNTU2MTg2MjQ0NTAwFQIAERgSOTgwMjI3Q0NCRDQzOTI4MzhCAA==",
+      "status": "sent",
+      "ts": 1757106169351
+    },
+    {
+      "phone": "5561999999999",
+      "direction": "in",
+      "body": "Olá, mensagem de teste",
+      "wa_message_id": "test_message_id",
+      "status": "received",
+      "ts": 1757106169000
+    }
+  ]
 }
